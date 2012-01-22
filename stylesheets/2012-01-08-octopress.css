@@ -1,0 +1,57 @@
+html{
+  background: #E41837;
+} 
+body{
+  color: #F2F2F2;    
+}
+a, a:visited{
+  color:#000;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color:#333;
+  text-decoration: underline;
+}
+article header{
+  background: #E41837;      
+}
+blockquote{
+  color: rgba(170, 170, 170, 0.5); 
+}
+time{float:right;}
+
+#content {
+  margin-left: 400px;
+  margin-right: 0px;
+}
+#content > div, #content > article {
+  float: right;
+}
+
+aside.sidebar {
+  background: none;
+  clear: none;
+  float: right;
+  margin: 0 0 0 -100%;
+}
+
+aside.sidebar .about_me img {
+  width: 500px;
+}
+aside.sidebar .octopus img {
+  width: 300px;
+}
+
+.refer sub{
+  top: 0em;
+  line-height: 20px;
+}
+
+.refer p {
+font-size: 14px;
+line-height: 18px;
+margin-bottom: 8px;
+color: #ccc;
+padding-left: 0.8em;
+}

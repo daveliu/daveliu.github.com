@@ -1,0 +1,91 @@
+html{
+  background: #DAC9A6;
+} 
+body{
+  color: #000;  
+  width: 100%;  
+}
+a, a:visited{
+  color:#EB7A77;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color:#333;
+  text-decoration: underline;
+}
+article header{
+  background: #E41837;      
+}
+article img{
+  border: none;
+  box-shadow: none;
+}
+blockquote{
+  color: rgba(170, 170, 170, 0.5); 
+}
+body > nav {
+  margin-bottom:0px;
+  background: #fff;
+}
+body > nav .main-navigation li a {
+  color:#000;
+}
+body > nav .main-navigation li a:hover {
+  color:#000;
+  opacity: 1;
+}
+body > nav .home .icon{
+  background-position: -19px bottom;
+  width: 19px;
+}
+body > nav .rss .icon{
+  background-position: -38px bottom;
+}
+#content {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#content > div, #content > article {
+  float: right;
+  padding-top:0px;
+}
+#content article {
+  width: 800px;
+  padding-top: 50px;
+  margin: 0px auto;
+}
+.blog_header{
+  background: #fff;
+  text-align: center;
+}
+.blog_header h1{
+  margin-bottom: 10px;
+}
+
+aside.sidebar {
+  background: none;
+  clear: none;
+  float: right;
+  margin: 0 0 0 -100%;
+}
+
+aside.sidebar .about_me img {
+  width: 500px;
+}
+aside.sidebar .octopus img {
+  width: 300px;
+}
+
+.refer sub{
+  top: 0em;
+  line-height: 20px;
+}
+
+.refer p {
+font-size: 14px;
+line-height: 18px;
+margin-bottom: 8px;
+color: #ccc;
+padding-left: 0.8em;
+}

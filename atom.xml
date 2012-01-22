@@ -1,16 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[刘文举]]></title>
   <link href="http://daveliu.github.com/atom.xml" rel="self"/>
   <link href="http://daveliu.github.com/"/>
-  <updated>2012-01-08T12:19:32+08:00</updated>
+  <updated>2012-01-22T19:07:32+08:00</updated>
   <id>http://daveliu.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
-    
+    <name><![CDATA[Dave Liu]]></name>
+    <email><![CDATA[liuwenju26@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[龙年快乐]]></title>
+    <link href="http://daveliu.github.com/blog/2012/01/19/newyear/"/>
+    <updated>2012-01-19T13:02:00+08:00</updated>
+    <id>http://daveliu.github.com/blog/2012/01/19/newyear</id>
+    <content type="html"><![CDATA[<p>新的一年就要到来了，总结一下过去一年好玩的一些东西。虽然太阳底下没什么新鲜事，但过年总是最高兴的，祝福大家新年快乐，龙马精神！也希望自己
+在新的一年有精彩的生活！</p>
+
+<h2>My Top Things In 2011</h2>
+
+<h3>书</h3>
+
+<p><a href="http://baike.baidu.com/view/6255316.htm">乔布斯传</a></p>
+
+<p>2011看了不少书，特别是开始上班以后，每天四个小时的路程，平均一个星期一本。论好看，我觉得还<a href="http://book.douban.com/subject/1854151/">金圣叹批评本水浒传</a>，这本书我从大学到现在看了很多次了，每次看都有新惊喜。但因为老乔的离去，《乔布斯传》是成了2011不得不看的书，论内容，《乔布斯传》也是我很喜欢的类型，内容朴实，简简单单记录了老乔的故事，不像今年看的另一本书,林语堂的<a href="http://book.douban.com/subject/1792668/">苏东坡传</a>，作者自己的情感流露太多，很多地方是对苏东坡的赞扬，看的太腻。</p>
+
+<p>很多朋友因为凡客的广告，觉得《乔布斯传》是那种很俗的类型，其实是很值得一看的。我这里刚好有一本，如果你需要可以联系我<a href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#x64;&#x61;&#x76;&#101;&#x40;&#108;&#x69;&#97;&#x67;&#101;&#114;&#x65;&#x6e;&#x2e;&#99;&#x6f;&#x6d;">&#100;&#x61;&#x76;&#101;&#64;&#x6c;&#105;&#97;&#x67;&#101;&#x72;&#x65;&#110;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>
+
+<h3>电影</h3>
+
+<p><a href="http://www.tudou.com/programs/view/UJ4kpgAxguA/">光棍儿</a></p>
+
+<p>《光棍儿》这部电影是在微博上看到的，特别好玩，方言是张家口那边的，和内蒙古也很接近，有农村生活的人看了会很有亲近感。在豆瓣上看到有人把这部电影和《盲井》等类型的比较，我觉得《光棍儿》这部电影最可贵的地方在于他不是想反映某种现象，他没有站在一个审判的高度去俯视生活，他是从生活出发，并且细腻的把握住了人们真实的感情流露。很多人说看完这部电影感觉到冰冷，很难接受，不知道为什么有这样的感觉。我看完反而觉得很温暖。</p>
+
+<p> 在国内搞这样的创作不容易，支持导演，希望国内有更多的这样接近真实生活的电影。</p>
+
+<h3>付费软件，付费服务</h3>
+
+<p>  <a href="http://vip.xunlei.com/">迅雷vip</a></p>
+
+<p>  之前我是很少在网上付费买软件或者某个服务的，2011年开始买了一些东西，一是因为paypal里有一些钱反正也没地方花，二是有些东西做的确实不错，没有能替代的免费的服务。</p>
+
+<p> 我买的大多数东西是国外的，比如peepcode的<a href="http://peepcode.com/products/peepopen">peepopen</a>和一些screencasts,迅雷vip可能是唯一的国内的服务。迅雷vip提供的唯一好处就是节省时间，但还有比节省时间更重要的好处吗？而且在mac上也可以用<a href="lixian.xunlei.com">迅雷离线</a>，先下载到迅雷离线，再下载到本地，速度快很多。</p>
+
+<p> 希望国内越来越多有这种让人花了钱又觉得很值的软件或者互联网服务，这对于整个行业都是很大的好处。</p>
+
+<h3>电子产品</h3>
+
+<p>  <a href="http://baike.baidu.com/view/6600695.htm">kindle 4</a></p>
+
+<p>  我不是数码达人，其实2011这一年也就买了这一个比较先进的电子产品（那个狗毛剃刀就不算了）。但这个东西确实不错，价格599元，能塞到衣服兜子里，看书很舒服，电子墨水不怎么伤眼睛，也不用刷机什么的，它的唯一用处就是看书。要是初中，高中时候有这玩意就爽了，看武侠绝对好用。</p>
+
+<h3>Ruby Gem</h3>
+
+<p>  <a href="https://github.com/rails/jbuilder">jbuilder</a></p>
+
+<p>  Jbuilder是DHH在2011年年末时候写的一个东西，在 render json的时候比较自由，用来代替原来的to_json,可能会在Rails4.0默认使用。我刚好在一个Rails+Mongoid的项目中用的到，还添加了俩个方法，我的fork在<a href="https://github.com/daveliu/jbuilder">这里</a>。</p>
+
+<p>  作为一个Rails程序员，每天和各种各样的gem打交道，jbuilder这个其实算不 上一个太常用的。但我选他出来是惊叹于顶级hacker的那种创造力，类似用途的gem其实已经有几个了，但DHH这个用起来舒服，源代码也简单明了，正是这些牛人的努力让我们的工作受益很多。</p>
+
+<h3>最让我兴奋的新技术</h3>
+
+<p>  <a href="http://coffeescript.org/">coffee script </a></p>
+
+<p>  Rails从3.1开始默认支持coffee script,把coffee script带到了一个新的高度。我觉得coffee script和sass一样，他们不是那种killer级别的东西，本质上他们就是一种语法糖，如果你写100行js有5个潜伏的bug，你不能指望把这100行js用50行coffee script重写后bug能减少到4个。他们的出现更重要的是一种方向，在潜意识里告诉你js和css的设计，重构很重要，小到变量命名，大到设计模式。</p>
+
+<p>  coffee script能帮助我写出更自信的js，这是最让我兴奋的地方。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Make a blog use octopress]]></title>
+    <link href="http://daveliu.github.com/blog/2012/01/08/octopress/"/>
+    <updated>2012-01-08T13:02:00+08:00</updated>
+    <id>http://daveliu.github.com/blog/2012/01/08/octopress</id>
+    <content type="html"><![CDATA[<p>这是一个变革的时代，web开发正在逐渐跨入一个新的境地。过去我们使用Ruby On Rails最让人兴奋的是ActiveRecord提供的简单但有点神奇的接口，但随着Rails3.1 Asset Pipeline<sup class="footnote"><a href="#fn1">1</a></sup>的发布，js,css正式成为了一等公民。我们越来越多开始遇到Rails提供API，前端HTML5 + CSS3 + Heavy  JS的App。</p>
+
+<p>这是一个很让人兴奋的改变，同时发生的是Hacker/Geeker们开始研究新的花样来发布个人网站，记录博客。从wordpress开始
+Blog程序一直在发展，但没有本质的改变。2007－2009的时候你打开Rails程序员的博客，十有九是Mephisto<sup class="footnote"><a href="#fn2">2</a></sup>，到现在Rails官方的博客仍然是Mephisto。Mephisto基本上使用Rails写的Wordpress，理念上比较相似，也有挺多Theme，但Rails与生俱来的部署难问题限制了他的发展。Mephisto之后最不错的一个博客软件是Enki<sup class="footnote"><a href="#fn3">3</a></sup>，Enki的目标很简单，就是一个给Developer的博客软件，所以不像Mephisto一样大包大揽，没有太多东西需要配置，“clean, simple, easy to understand code base”，是Enki的哲学。我觉得Enki确实是一个不错的给程序员使用的博客软件，但问题是这已经不是一个写博客的时代了，所以事实上我们没有遇到几个使用Enki的博客。</p>
+
+<p>但Hacker们不是普通的互联网用户，Twitter虽然满足了60％的使用需求，有的时候人们仍然需要通过一篇较长的文字来分享自己对某个技术问题的理解，或者最近做的一些新的尝试，很多时候这些文章促进了技术的发展，我们需要这些文字，也希望那些出色的Hacker们能多多分享。所以大家开始尝试新的记录博客的方法。最成功的就是Jekyll<sup class="footnote"><a href="#fn4">4</a></sup>。</p>
+
+<p>Jekyll是github的创始团队中的<a href="https://github.com/mojombo">Tom Preston</a>建立的，“Jekyll is a blog-aware, static site generator in Ruby”，静态文件，template driven，可以直接部署到Github Pages<sup class="footnote"><a href="#fn11">11</a></sup>等各种优点让Jekyll成为了最近一俩年Hacker们记录博客的首选。今天我介绍的Octopress<sup class="footnote"><a href="#fn5">5</a></sup>就是完全基于Jekyll的一个blog框架，在Jelyll的基础上增加了默认的html模板，默认的js，css，和一套简单的配置，部署方案。因为Github Pages是使用Jekyll来驱动的，所以使用Octopress也可以直接部署到Github Pages。</p>
+
+<p>从我自己的需求出发，有几个原因选择Octopress而不是其他的开源博客引擎来写blog：</p>
+
+<ul>
+<li>ruby写的，我可以二次开发</li>
+<li>静态页面，不要数据库</li>
+<li>简单部署，不需要自己的host</li>
+<li>默认支持markdown<sup class="footnote"><a href="#fn6">6</a></sup></li>
+<li>默认支持git发布</li>
+<li>默认支持SCSS<sup class="footnote"><a href="#fn7">7</a></sup></li>
+<li>有那么一点挺酷的感觉</li>
+</ul>
+
+
+<p>Octopress的安装，部署都很简单，默认的主题也不错，很适合想记录一点文字的Developer。但如果需要一个CMS，建立一个简单但是功能完整的站点，有比较多的逻辑需要处理，需要完全制作新的样式，可能Octopress不是最适合的。有很多Ruby Base的CMS，都大同小异，使用最广泛的是Radiant<sup class="footnote"><a href="#fn8">8</a></sup>, Rails官方的站点也是用的他。不过我推荐的是Nestacms<sup class="footnote"><a href="#fn9">9</a></sup>，Nesta是Sinatra<sup class="footnote"><a href="#fn12">12</a></sup>写的，和Octopress很相似，静态页面，支持markdown，支持git发布，但因为是Sinatra Base，扩展起来很方便，加入SCSS,甚至Coffee Script<sup class="footnote"><a href="#fn10">10</a></sup>都很简单。</p>
+
+<p>所以我的结论是，写Blog用Octopress，写一个小站点，用Nesta，唯一麻烦的是需要自己的host。</p>
+
+<div class="refer">
+  <h4>参考</h4>
+
+  <p id="fn1"><sub>1</sub> Rails3.1引入了<a href="http://guides.rubyonrails.org/asset_pipeline.html">asset pipeline</a>.</p>
+
+  <p id="fn2"><sub>2</sub> <a href="https://github.com/halorgium/mephisto">mephisto</a> is a Rails implemented Blog System.</p>
+
+  <p id="fn3"><sub>3</sub> <a href="https://github.com/xaviershay/enki">enki</a> is A Ruby on Rails blogging app for the fashionable developer .</p>
+
+  <p id="fn4"><sub>4</sub> <a href="http://jekyllrb.com/">jekyll</a> is a blog-aware, static site generator in Ruby.</p>
+
+  <p id="fn5"><sub>5</sub> <a href="http://octopress.org">octopress</a> is A blogging framework for hackers.</p>
+
+  <p id="fn6"><sub>6</sub> <a href="http://daringfireball.net/projects/markdown/">Markdown</a> is a text-to-HTML conversion tool for web writers.</p>
+
+  <p id="fn7"><sub>7</sub> <a href="http://sass-lang.com/">SCSS</a> makes CSS fun again.</p>
+
+  <p id="fn8"><sub>8</sub> <a href="http://radiantcms.org/">Radiant</a> is a no-fluff, open source content management system designed for small teams.</p>
+
+  <p id="fn9"><sub>9</sub> <a href="https://github.com/gma/nesta">Nesta</a> is A lightweight CMS, implemented in <a href="http://www.sinatrarb.com/">Sinatra</a>.</p>
+
+  <p id="fn10"><sub>10</sub> <a href="http://coffeescript.org/">Coffee Script</a> is a little language that compiles into JavaScript.</p>
+
+  <p id="fn11"><sub>11</sub> <a href="http://pages.github.com/">Github Pages</a> allows you to publish content to the web by simply pushing content to one of your GitHub hosted repositories.</p>  
+  
+  <p id="fn12"><sub>12</sub> <a href="http://www.sinatrarb.com/">Sinatra</a> is a ruby based lightweight web development framework.</p>
+
+</div>
+
+
+
+]]></content>
+  </entry>
   
 </feed>
