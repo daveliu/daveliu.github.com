@@ -89,6 +89,18 @@ article + article {
 }
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
+  background: #F2F2F2;
+  position: relative;
+  .post-shadow {
+    background: url(/assets/images/post_shadow.png) left top no-repeat;
+    width: 100%;
+    height: 10px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    z-index: 2;
+  }
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {

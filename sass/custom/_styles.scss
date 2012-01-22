@@ -1,2 +1,26 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+html{
+  background: #2293AC;
+} 
+body{
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  width: 940px;
+  
+  header{
+    background: #2293AC;    
+  }
+  
+  sup.footnote {
+    bottom: 1ex;
+    font-size: 0.7em;
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+  }
+  
+}

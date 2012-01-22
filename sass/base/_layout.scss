@@ -91,13 +91,6 @@ body {
 
 #content { > div, > article { width: 100%; }}
 
-aside.sidebar {
-  float: none;
-  padding: 0 $pad-min 1px;
-  background-color: lighten($sidebar-bg, 2);
-  border-top: 1px solid $sidebar-border;
-  @extend .group;
-}
 
 .flex-content { max-width: 100%; height: auto; }
 
@@ -146,8 +139,6 @@ body.sidebar-footer {
   }
   aside.sidebar {
     @extend .group;
-    width: $sidebar-width-medium - $sidebar-pad-medium*2;
-    padding: 0 $sidebar-pad-medium $sidebar-pad-medium;
     background: none;
     clear: none;
     float: left;
@@ -173,7 +164,6 @@ body.sidebar-footer {
   }
   aside.sidebar {
     width: $sidebar-width-wide - $sidebar-pad-wide*2;
-    padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
     .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
       @extend .group;

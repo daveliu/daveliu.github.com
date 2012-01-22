@@ -70,17 +70,3 @@ aside.sidebar a {
 a {
   @include transition(color .3s);
 }
-
-html {
-  background: $page-bg image-url('line-tile.png') top left;
-}
-body {
-  > div {
-    background: $sidebar-bg $noise-bg;
-    border-bottom: 1px solid $page-border-bottom;
-    > div {
-      background: $main-bg $noise-bg;
-      border-right: 1px solid $sidebar-border;
-    }
-  }
-}

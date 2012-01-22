@@ -3,27 +3,22 @@
 }
 aside.sidebar {
   color: $sidebar-color;
-  text-shadow: lighten($sidebar-bg, 8) 0 1px;
+  border-top: none;
+  
   a { @extend .force-wrap; }
   section {
-    @extend .sans;
-    font-size: .8em;
-    line-height: 1.4em;
     margin-bottom: 1.5em;
+    color: #FCFEFF;
     h1 {
       margin: 1.5em 0 0;
       padding-bottom: .2em;
-      border-bottom: 1px solid $sidebar-border;
-      @extend .side-shadow-border;
       + p {
         padding-top: .4em;
       }
     }
   }
   img {
-    @extend .flex-content;
     @extend .basic-alignment;
-    @include shadow-box($border: #fff .3em solid);
   }
   ul {
     margin-bottom: 0.5em;
@@ -41,12 +36,9 @@ aside.sidebar {
   }
   a {
     color: inherit;
-    @include transition(color .5s);
+    &:hover { color: #1863A1; }
   }
-  &:hover a {
-    color: $sidebar-link-color;
-    &:hover { color: $sidebar-link-color-hover; }
-  }
+
 }
 .aside-alt-link {
   color: $sidebar-link-color-subdued;
@@ -91,7 +83,6 @@ aside.sidebar {
       }
       &:after {
         border-left: 1px solid $sidebar-border;
-        text-shadow: #fff 0 1px;
         content: "\00AB";
         left: 0px; right: 0;
         text-align: center;

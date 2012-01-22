@@ -1,0 +1,23 @@
+---
+layout: default
+single: true
+---
+<link href="{{ root_url }}/stylesheets/2012-01-08-octopress.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+<div class="blog">
+<article class="hentry" role="article">
+  {% include article.html %}
+</article>
+</div>
+
+{% unless page.sidebar == false %}
+<aside class="sidebar">
+  <section class="about_me">
+    <h1>{% img /assets/images/posts/octopress.png %}</h1>
+    {% include post/date.html %}{{ time }}    
+  </section>
+  <section class="octopus">
+    <p>{% img /assets/images/posts/roboctocop.png %}</p>
+  </section>
+</aside>
+{% endunless %}
