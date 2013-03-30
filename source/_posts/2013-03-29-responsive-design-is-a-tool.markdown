@@ -1,6 +1,6 @@
 ---
 layout: 2013-03-29-responsive-design-is-a-tool
-title: "Dont's abuse Responsive Web Design"
+title: "Don't abuse Responsive Web Design"
 thumb: /assets/images/posts/2013-03-29-responsive-design-is-a-tool.png
 date: 2013-03-29 21:36
 comments: true
