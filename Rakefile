@@ -21,6 +21,8 @@ blog_index_dir  = 'source'    # directory for your blog's index page (if you put
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
 stash_dir       = "_stash"    # directory to stash posts for speedy generation
 posts_dir       = "_posts"    # directory for blog files
+layouts_dir     = "_layouts"
+stylesheets_dir = "stylesheets"
 themes_dir      = ".themes"   # directory for blog files
 new_post_ext    = "markdown"  # default new post file extension when using the new_post task
 new_page_ext    = "markdown"  # default new page file extension when using the new_page task
@@ -95,20 +97,26 @@ task :new_post, :title do |t, args|
   mkdir_p "#{source_dir}/#{posts_dir}"
   args.with_defaults(:title => 'new-post')
   title = args.title
-  filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  basename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}"  
+  filename = "#{source_dir}/#{posts_dir}/#{basename}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post"
+    post.puts "layout: #{basename}"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "thumb: /assets/images/posts/#{basename}.png"
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "---"
   end
+  puts "Creating new layout: #{basename}.html"
+  open("#{source_dir}/#{layouts_dir}/#{basename}.html", 'w')
+  puts "Creating new css: #{basename}.css"    
+  open("#{source_dir}/#{stylesheets_dir}/#{basename}.css", 'w')
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")

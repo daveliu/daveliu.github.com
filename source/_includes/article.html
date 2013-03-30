@@ -1,6 +1,12 @@
 {% if index %}
   {% include post/date.html %}{{ time }}  
   <div>
+    <h2>
+      <a href="{{ root_url }}{{ post.url }}">
+        {{ post.title }}
+      </a>    
+    </h2>
+    
     <a href="{{ root_url }}{{ post.url }}">
       <img src="{{ post.thumb }}" alt="{{ post.title }}"></img>
     </a>    
