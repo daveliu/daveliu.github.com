@@ -2,18 +2,22 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://daveliu.github.com/blog/2012/01/08/octopress/</loc>
-        <lastmod>2012-01-22T18:55:49+08:00</lastmod>
+        <lastmod>2012-01-22T18:55:48+08:00</lastmod>
     </url>
     <url>
         <loc>http://daveliu.github.com/blog/2012/01/19/newyear/</loc>
         <lastmod>2012-02-06T18:28:30+08:00</lastmod>
     </url>
     <url>
+        <loc>http://daveliu.github.com/blog/2013/03/29/responsive-design-is-a-tool/</loc>
+        <lastmod>2013-03-30T22:54:49+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://daveliu.github.com/blog/archives/</loc>
-        <lastmod>2012-02-06T18:28:30+08:00</lastmod>
+        <lastmod>2013-03-30T22:54:49+08:00</lastmod>
     </url>
     <url>
         <loc>http://daveliu.github.com/</loc>
-        <lastmod>2012-02-06T18:28:30+08:00</lastmod>
+        <lastmod>2013-03-30T22:54:49+08:00</lastmod>
     </url>
 </urlset>

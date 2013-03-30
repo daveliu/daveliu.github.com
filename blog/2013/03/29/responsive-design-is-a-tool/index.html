@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Dont's abuse Responsive Web Design - 刘文举</title>
+  <meta name="author" content="Dave Liu">
+
+  
+  <meta name="description" content="突然有一天所有框架，所有网站都在谈Responsive Web Design。通过CSS中@media (max-width:) 来区别屏幕的宽度，对不同的屏幕写不同的CSS，在普通HTML的版本中兼顾不同屏幕的设计，用最小的代价保证网站在各种设备上的正常浏览和使用。 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://daveliu.github.com/blog/2013/03/29/responsive-design-is-a-tool">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="刘文举" type="application/atom+xml">
+  
+
+  
+
+</head>
+
+<body   >
+  <nav role="navigation">  
+<ul class="main-navigation">
+  <li>
+    <a href="/" class="home">
+      <span class="icon"></span>
+      <span class="label">首页</span>
+    </a>
+  </li>
+  
+  <li>
+    <a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS" class="rss">
+      <span class="icon"></span>
+      <span class="label">RSS</span>
+    </a>
+  </li>  
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <link href="/stylesheets/2013-03-29-responsive-design-is-a-tool.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+<div class="blog">
+  <div class="blog_header">
+    <h2>Dont's abuse Responsive Web Design</h2>
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-29T21:36:00+08:00" pubdate data-updated="true">Mar 29<span>th</span>, 2013</time>    
+    <h1><img src="/assets/images/posts/responsive-design.jpg"></h1>
+  </div>
+  <article class="hentry" role="article">
+    
+<div class="entry-content"><p>突然有一天所有框架，所有网站都在谈Responsive Web Design。通过CSS中@media (max-width:) 来区别屏幕的宽度，对不同的屏幕写不同的CSS，在普通HTML的版本中兼顾不同屏幕的设计，用最小的代价保证网站在各种设备上的正常浏览和使用。<a href="http://twitter.github.com/bootstrap/">Bootstrap</a>这样的框架的流行让Responsive Design的工作降到最低，用不了做多少事情就能让网站在手机上获得舒服的浏览体验，是不是很酷？</p>
+
+<p>但是Responsive Design不是银色的子弹，小屏幕设备有天然的局限性，仅仅依靠一些CSS的优化很难保证在手机上获得PC上一样的用户体验，这就是为什么Native APP是移动互联网的入口,不是Web App，也不是Hybrid App。</p>
+
+<blockquote><p>Our Biggest Mistake Was Betting Too Much On HTML5
+<a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-rebuilding-facebook-for-ios/10151036091753920"> Mark Zuckerberg</a></p></blockquote>
+
+<p>我最近接触了几个团队，把Responsive Design提到了很高的位置，决定从开始建立网站就是用Responsive Design来保证小屏幕下的正常浏览，然后在移动app中直接引用相关的页面，省时省力，利用HTML5和CSS3一次性解决各种设备兼容的问题。拜托，他们其中一个要做的是项目管理的工具，主页面功能很多，大量的ajax操作，很难想象这种页面怎么个Responsive。</p>
+
+<p>事实上Responsive Design的适用范围是有限的，在浏览多于交互的站点上，Responsive Design是一种不错的技术，花最小的代价提升移动设备端的体验，如<a href="http://www.dribble.com">dribble.com</a>,<a href="http://www.36kr.com">36kr.com</a>。但在交互很多，大量ajax站点上，直接上APP，或者开发一个专门的mobile版本是更好的选择，这就是我们常说的UE大于UI，一个网站能用起来是最重要的，然后我们考虑的是怎么让它更漂亮，更优雅。在页面内容比较多的网站使用Responsive Design，通常会导致移动设备浏览时网站打开太慢，在非wifi情况下使用不流畅。网站不够简洁，甚至没有原来WAP版本的实用，可以用来看，但很难真正用起来。把交互性很强的页面强行塞在小屏幕里，并且让PC版使用的大部分体积比较大的JS，CSS库也加载到移动版中，可能是错误的做法。</p>
+
+<p>和Responsive Design相对的思路是类似<a href="http://jquerymobile.com/">jQuery Mobile</a>等框架，帮助网站在移动设备上模拟类似本地应用的界面和体验。 和Responsive Design相反，JQuery Mobile可能更合适交互强一点的站点 ，在开发zuzher.com的移动版中，我们使用了<a href="http://jquerymobile.com/">jQuery Mobile</a>， <a href="http://jquerymobile.com/">jQuery Mobile</a>的文档很全，完成度也比较高 ，最后的结果还不错，但一个缺点是体积比较大，对网速要求比较高，对于浏览量大的站点还是不太合适。像baidu的很多产品的移动版都做的不错，使用<a href="http://zeptojs.com/">zepto</a>替代jQuery, 自己写CSS和JS模拟部分的原生UI，在原生UI和普通网页中做一个平衡，应该是比较好的选择，有机会要尝试一下。</p>
+
+<p>很让人兴奋的是Responsive Web Design强调的简洁页面设计，和One Page Site侧重的复杂的客户端设计，都在悄然的改变我们制作网站的方向，web2.0之后最激动人心的互联网产品的变化正在发生！</p>
+</div>
+
+
+  </article>
+</div>
+    </div>
+  </div>
+  <footer role="contentinfo">
+</footer>
+</body>
+</html>
