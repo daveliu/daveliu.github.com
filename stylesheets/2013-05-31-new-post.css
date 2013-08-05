@@ -1,0 +1,241 @@
+.grid_2 {
+  width: 140px; }
+
+.row.top {
+  background-color: transparent; }
+
+body {
+  font-family: 'Helvetica Neue', Corbel, Helvetica, sans-serif; width:100%;}
+
+
+blockquote p {
+  font-family: 'Palatino', 'Book Antiqua', serif;
+  font-style: italic; }
+
+cite {
+  display: block;
+  text-align: right; }
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black; }
+  a:hover {
+    border-bottom: 1px solid white; }
+    
+body > nav .main-navigation li a {
+  color:#000;
+  border-bottom:none;
+}
+body > nav .main-navigation li a:hover {
+  color:#000;
+  opacity: 1;
+  border-bottom:none;  
+}    
+body > nav .home .icon{
+  background-position: -19px bottom;
+  width: 19px;
+}
+body > nav .rss .icon{
+  background-position: -38px bottom;
+}
+
+code {
+  font-face: Inconsolata, Bitstream Vera Sans Mono, 'Courier New', Courier, monospace; }
+
+span.amp {
+  font-family: 'Palatino', 'Book Antiqua', serif;
+  font-style: italic; }
+
+span.caps {
+  font-size: 0.9em; }
+
+sup, sub {
+  font-size: 0.7em;
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  position: relative; }
+
+sup {
+  bottom: 1ex; }
+
+sub {
+  top: 0.5ex; }
+
+table th {
+  text-align: left; }
+table th, table td {
+  padding: 0 10px 0 0; }
+
+.grid_2 {
+  width: 140px; }
+
+.column, .col {
+  margin: 0 10px;
+  overflow: hidden;
+  float: left;
+  display: inline; }
+
+.row {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .row .row {
+    margin: 0 -10px;
+    width: auto;
+    display: inline-block; }
+
+.row.top {
+  margin-top: -90px;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 0px;
+  position: relative;
+  background-color: #f0f0f0; }
+
+blockquote {
+  padding-bottom: 27px; }
+
+h1 {
+  padding-bottom: 0.14em; }
+
+h1, .subheading {
+  margin-left: 160px; }
+
+.title {
+  margin: 0;
+  padding-bottom: 10px; }
+  .title .column {
+    margin-left: 170px; }
+
+#essay {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 50px; }
+
+.author {
+  text-align: left;
+  width: 700px;
+  margin-left: 170px; }
+
+.article {
+  width: 940px; }
+  .article h2, .article p, .article ul {
+    padding-left: 160px;
+    padding-right: 160px; }
+  .article img {
+    margin-left: -160px;
+    margin-bottom: -6px; }
+  .article img.cake {
+    margin-left: 0; }
+
+.footer {
+  margin-top: 3em;
+  color: #f26522; }
+
+html {
+  background-color: #fefefe; }
+
+#masthead .menu a, #masthead .menu a:visited {
+  color: #333333;
+  border-bottom: 1px dotted #333333; }
+
+article a, article a:link {
+  color: #f26522;
+  border-bottom: 1px dotted #662d07; }
+article a:visited {
+  border-bottom: 1px dotted #662d07; }
+article a:hover {
+  color: #662d07;
+  border-bottom: 1px solid #662d07; }
+article h1 {
+  color: #f26522; }
+article h2, article h3, article h4, article .subheading {
+  color: #662d07; }
+article h1, article h2, article .subheading, article p, article li, article .page-date, article p.small, article h3 {
+  font-family: ff-tisa-web-pro, 'Century Schoolbook', Century, Palatino, Georgia, Times, 'Times New Roman', serif; }
+article p.small {
+  color: #662d07;
+  font-style: italic; }
+
+.row.top {
+  background-color: transparent; }
+
+.column.heading .page-date {
+  color: #cccccc;
+  position: relative;
+  bottom: 0;
+  margin-left: 190px;
+  text-align: left; }
+.column.heading h1, .column.heading .subheading {
+  font-size: 3em;
+  line-height: 1.25em; 
+  margin-bottom:0px;}
+.column.heading .subheading {
+  font-weight: normal;
+  font-size: 2.2em;
+  color: #662d07;
+  padding-bottom: 1em; }
+
+#essay {
+  padding-top: 0; }
+  #essay .author p {
+    text-align: left;
+    color: #1d0d02;
+    font-size: 1em; }
+    #essay .author p span {
+      font-weight: bold; }
+  #essay .column.article {
+    color: #1d0d02; }
+    #essay .column.article h2 {
+      margin-top: 1.5em;
+      line-height: 1.25em; }
+    #essay .column.article img {
+      margin-left: 10px;
+      border: 0;
+      width: 200px; }
+    #essay .column.article .floatleft {
+      float: left; }
+    #essay .column.article .floatleft, #essay .column.article .left {
+      margin-right: 2em; }
+      #essay .column.article .floatleft img, #essay .column.article .left img {
+        margin-left: 0; }
+      #essay .column.article .floatleft p.caption, #essay .column.article .left p.caption {
+        padding-left: 80px;
+        padding-right: 0; }
+    #essay .column.article p.caption {
+      font-family: ff-tisa-web-pro, 'Century Schoolbook', Century, Palatino, Georgia, Times, 'Times New Roman', serif;
+      color: #1d0d02;
+      text-align: left;
+      padding-left: 160px;
+      padding-right: 160px;
+      margin-bottom: 1em; }
+      #essay .column.article p.caption span.caps {
+        color: #662d07;
+        line-height: 1em; }
+    #essay .column.article ul {
+      width: 240px; }
+    #essay .column.article .tweet iframe {
+      margin-left: 160px !important; }
+  #essay ul, #essay li {
+    line-height: 1.5em; }
+  #essay .footer {
+    border-top: 3px double #662d07;
+    border: 1px solid blue; }
+    #essay .footer p {
+      font-size: 0.77778em;
+      line-height: 1.2857em;
+      margin-bottom: 8px; }
+
+h3 {
+  clear: both;
+  margin-left: 160px; }
+  
+ul li {
+text-align: left;
+color: #662d07;
+font-size: 1em;
+font-weight:bold;
+list-style:none;
+}
